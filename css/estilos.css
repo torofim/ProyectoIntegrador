@@ -1,5 +1,51 @@
-.landingpage{
+.landupper{
 	background-color:red;
-	height:50vh;
-	margin-top:;
+	height:70vh;
+	
+}
+.landlower{
+	background-color:blue;
+	height:30vh;
+}
+.logo{
+	background-color:purple;
+	height:25vh;
+	margin-top:5vh;
+}
+.lab{
+	margin-top:2vh;
+	text-align:center;
+	color:white;
+	font-size:2rem;
+}
+.boton{
+	margin-top:2vh;
+}
+.compo{
+	background-color:white;
+	border-radius:50%;
+	height:120px;
+	width:120px;
+	margin:0 auto;
+	display:inline-block;
+	margin-left:18%;
+	margin-top:10%;
+}
+.labe{
+	text-align:center;
+	color:black;
+	font-size:2rem;
+	margin-left:28%;
+}
+.labei{
+	text-align:center;
+	color:black;
+	font-size:2rem;
+	margin-left:31%;
+}
+.labem{
+	text-align:center;
+	color:black;
+	font-size:2rem;
+	margin-left:33%;
 }
