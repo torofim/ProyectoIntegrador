@@ -1,8 +1,11 @@
 .landupper{
 	background-color:red;
-	height:70vh;
+	height:100vh;
+
+
 	
 }
+
 .landlower{
 	background-color:blue;
 	height:30vh;
@@ -15,7 +18,7 @@
 .lab{
 	margin-top:2vh;
 	text-align:center;
-	color:white;
+	color:blue;
 	font-size:2rem;
 }
 .boton{
