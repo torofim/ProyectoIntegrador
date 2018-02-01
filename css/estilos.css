@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+h1{
+	text-align: center;
+    font-size: 3.75rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.container{
+	 padding-right: 15px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
