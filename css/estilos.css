@@ -1,11 +1,6 @@
 .landupper{
-	background-color:red;
 	height:100vh;
-
-
-	
 }
-
 .landlower{
 	background-color:blue;
 	height:30vh;
@@ -13,16 +8,21 @@
 .logo{
 	background-color:purple;
 	height:25vh;
-	margin-top:5vh;
+	margin-top:10vh;
+}
+.img{
+	display:block;
+	margin:auto;
+	margin-top:20vh;
 }
 .lab{
-	margin-top:2vh;
 	text-align:center;
-	color:blue;
+	color:black;
 	font-size:2rem;
 }
 .boton{
 	margin-top:2vh;
+	font-size:2rem;
 }
 .compo{
 	background-color:white;
