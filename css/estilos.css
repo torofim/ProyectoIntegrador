@@ -4,8 +4,13 @@ body {
   background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+<<<<<<< HEAD
 height: 200vh;
 
+=======
+height: 100vh;
+overflow:hidden;
+>>>>>>> fimbres
 }
 h1{
   text-align: center;
@@ -23,6 +28,7 @@ h1{
   background-color: white;
 
 }
+<<<<<<< HEAD
 #s1{
   background-color: pink;
 height:40%;
@@ -30,4 +36,21 @@ height:40%;
 #s2{
   background-color: white;
   height: 33.3%;
+=======
+.landingpage3{
+  background-color: blue;
+
+}
+#s1{
+  background-color: pink;
+height: 40%;
+}
+#s2{
+  background-color: white;
+  height: 40%;
+}
+#s3{
+  background-color: blue;
+  height: 40%;
+>>>>>>> fimbres
 }
