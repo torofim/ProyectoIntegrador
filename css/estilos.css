@@ -2,7 +2,7 @@
 	height:100vh;
 }
 .landlower{
-	background-color:blue;
+	background-color:#b3b3b3;
 	height:100vh;
 }
 .logo{
@@ -25,30 +25,58 @@
 	font-size:2rem;
 }
 .compo{
-	background-color:white;
-	border-radius:50%;
-	height:120px;
-	width:120px;
-	margin:0 auto;
+	background-color:blue;
+
+	width:100%;
+	height:100%;
+	margin:auto;
 	display:inline-block;
 	margin-left:18%;
-	margin-top:10%;
+	margin-top:10vh;
 }
 .labe{
 	text-align:center;
 	color:black;
 	font-size:2rem;
-	margin-left:28%;
+	margin-left:50%;
 }
 .labei{
 	text-align:center;
 	color:black;
 	font-size:2rem;
-	margin-left:31%;
+	margin-left:50%;
 }
 .labem{
 	text-align:center;
 	color:black;
 	font-size:2rem;
-	margin-left:33%;
+	margin-left:55%;
+}
+.part{
+	margin-top:10vh;
+	background-color:white;
+	height:50vh;
+}
+.part1{
+	height:50vh;
+	background-color:#157571;
+	margin-top:10vh;
+}
+.part2{
+	height:50vh;
+	margin-top:10vh;
+}
+.part3{
+	height:50vh;
+}
+.textup{
+	font-size:2rem;
+	color:white;
+	display:inline-block;
+		vertical-align:middle;
+		line-height:normal;
+}
+.text{
+	font-size:2rem;
+	color:white;
 }
