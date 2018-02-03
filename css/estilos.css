@@ -1,56 +1,47 @@
 body {
-  background: #959595; /* Old browsers */
-  background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
-<<<<<<< HEAD
-height: 200vh;
-
-=======
-height: 100vh;
-overflow:hidden;
->>>>>>> fimbres
+  height: 100vh;
 }
 h1{
   text-align: center;
-  font-size: 2rem;
+
   margin-top: 30px;
   text-transform: uppercase;
   font-size: 3.75rem;
 
 }
+h4{
+  text-align: center;
+  text-transform: uppercase;
+
+}
 .landingpage1{
-  background-color: pink;
+  background-image: url("../img/elderly_friend.jpg");
+background-size: 100% 100%;
+height: 100%;
+color: black;
 
 }
 .landingpage2{
   background-color: white;
-
+height: inherit;
 }
-<<<<<<< HEAD
+
 #s1{
-  background-color: pink;
-height:40%;
+
+height:75%;
 }
 #s2{
   background-color: white;
-  height: 33.3%;
-=======
-.landingpage3{
-  background-color: blue;
+  height:25%;
 
 }
-#s1{
-  background-color: pink;
-height: 40%;
+.collapsein .collapse{
+  height: 50vh;
+
 }
-#s2{
-  background-color: white;
-  height: 40%;
-}
-#s3{
-  background-color: blue;
-  height: 40%;
->>>>>>> fimbres
+
+.panel-title{
+
+  font-style: italic;
+  font-size: 3rem;
 }
