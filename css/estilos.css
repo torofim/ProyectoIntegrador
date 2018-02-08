@@ -19,11 +19,14 @@
 .lab{
 	text-align:center;
 	color:black;
-	font-size:2rem;
+	font-size:3rem;
+	font-family: 'Fjalla One', sans-serif;
 }
 .boton{
 	margin-top:2vh;
 	font-size:2rem;
+	font-family: 'Fjalla One', sans-serif;
+
 }
 .fhalf{
 	height:100%;
@@ -31,5 +34,39 @@
 }
 .shalf{
 	height:100vh;
-	background-color:#5E7A87;
+	background-color:#2C2C2C;
+}
+.snt{
+	width:90%;
+	height:70%;
+	background-color:transparent;
+	color:white;
+	margin-left:5%;
+	font-size:2rem;
+	margin-top:2.5%;
+	font-family: 'Hind', sans-serif;
+	text-align:justify;
+}
+.titulo{
+	font-size:3rem;
+	margin-left:5%;
+	display:inline-block;
+	color:white;
+	margin-top:10%;
+	font-family: 'Fjalla One', sans-serif;
+	border-bottom:solid;
+	border-bottom-width:1px;
+	border-bottom-style: ;
+}
+.landlower2{
+	height:100vh;
+	width:100%;
+}
+ul>li{
+	font-family: 'Hind', sans-serif;
+	font-size:1.8rem;
+}
+.navbar-brand{
+	font-family: 'Hind', sans-serif;
+	font-size:2rem;
 }
