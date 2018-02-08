@@ -70,3 +70,59 @@ ul>li{
 	font-family: 'Hind', sans-serif;
 	font-size:2rem;
 }
+.servicios{
+	height:100vh;
+}
+.cover{
+	height:100vh;
+	width:33.33%;
+	background-color:#151819;
+}
+.salud{
+	background-color:#176B6B;
+
+	height:100vh;
+}
+.gestiones{
+	background-color:#151819;
+	height:100vh;
+}
+.img3{
+	background-color:#151819;
+	height:25vh;
+	margin-top:10vh;
+	margin-left:32%;
+}
+.img4{
+		background-color:#176B6B;
+		height:25vh;
+	margin-top:10vh;
+	margin-left:32%;
+}
+.a{
+	margin-top:130%;
+	font-size:3rem;
+	transform:bold;
+	font-family: 'Fjalla One', sans-serif;
+	color:white;
+	margin-left:10%;
+}
+.aa{
+	margin-top:130%;
+	font-size:3rem;
+	transform:bold;
+	font-family: 'Fjalla One', sans-serif;
+	color:white;
+	margin-left:13%;
+}
+.aaa{
+	margin-top:130%;
+	font-size:3rem;
+	transform:bold;
+	font-family: 'Fjalla One', sans-serif;
+	color:white;
+	margin-left:15%;
+}
+
+
+
