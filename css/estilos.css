@@ -19,7 +19,7 @@ h4{
   background-image: url("../img/elderly_friend.jpg");
   background-position: center;
   background-size: 100% 100%;
-  height: 60vh;
+  height: 62vh;
   border-radius: 2%;
   width: 99%;
   margin-left: .5%;
@@ -36,7 +36,7 @@ h4{
   float: center;
 }
 footer{
-  height: 10vh;
+
   width: 98%;
   margin-left: 1%;
   background-color: white;
@@ -55,7 +55,7 @@ footer{
   border-color: black;
 }
 .footer{
-  height: 100%;
+
 }
 .panel-heading{
   border-color: black;
@@ -75,4 +75,21 @@ margin-top: 5%;
 li , p {
   font-style: normal;
   font-size: 2rem;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+
+}
+h4{
+  margin-top: 20%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+br{
+  margin: 8px;
+}
+a{
+  color: black;
 }
