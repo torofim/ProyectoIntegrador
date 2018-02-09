@@ -91,17 +91,14 @@ ul>li{
 	background-color:#151819;
 	height:25vh;
 	margin-top:10vh;
-	margin-left:32%;
 }
 .img4{
-		background-color:#176B6B;
-		height:25vh;
+	background-color:#176B6B;
+	height:25vh;
 	margin-top:10vh;
-	margin-left:32%;
 }
 .a{
-		width:100%;
-	
+	width:100%;
 	font-size:3rem;
 	transform:bold;
 	font-family: 'Fjalla One', sans-serif;
@@ -111,7 +108,6 @@ ul>li{
 }
 .aa{
 		width:100%;
-	
 	font-size:3rem;
 	transform:bold;
 	font-family: 'Fjalla One', sans-serif;
@@ -121,14 +117,17 @@ ul>li{
 }
 .aaa{
 	width:100%;
-
 	font-size:3rem;
 	transform:bold;
 	font-family: 'Fjalla One', sans-serif;
 	color:white;
-		text-align:center;
+	text-align:center;
 	display:inline-block;
 }
-
-
-
+.re{
+	align-content:center;
+	
+	margin-left:auto;
+	margin-right: auto;
+	display:block;
+}
