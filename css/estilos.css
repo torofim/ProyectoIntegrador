@@ -13,3 +13,18 @@ h1{
   margin-right: auto;
   margin-left: auto;
 }
+.textogris{
+	div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+.prroimg{
+  text-align:left;
+  display: inline-block;
+}
+.prro{
+  text-align:justify;
+  display:inline-block;
+
+}
