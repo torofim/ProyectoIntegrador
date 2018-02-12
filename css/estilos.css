@@ -18,13 +18,12 @@ h1{
     text-align: justify;
     text-justify: inter-word;
   }
-}
-.prroimg{
-  text-align:left;
-  display: inline-block;
+.imgjumo{
+
 }
 .prro{
   text-align:justify;
   display:inline-block;
-
+ font-size: 1.5rem;
+}
 }
