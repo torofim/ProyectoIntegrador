@@ -29,11 +29,12 @@
 
 }
 .fhalf{
-	height:100%;
+	height:80vh;
+	background-color:#2C2C2C;
 
 }
 .shalf{
-	height:100vh;
+	height:80vh;
 	background-color:#2C2C2C;
 }
 .snt{
@@ -56,7 +57,7 @@
 	font-family: 'Fjalla One', sans-serif;
 	border-bottom:solid;
 	border-bottom-width:1px;
-	border-bottom-style: ;
+	
 }
 .landlower2{
 	height:100vh;
@@ -80,7 +81,6 @@ ul>li{
 }
 .salud{
 	background-color:#176B6B;
-
 	height:100vh;
 }
 .gestiones{
@@ -90,12 +90,12 @@ ul>li{
 .img3{
 	background-color:#151819;
 	height:25vh;
-	margin-top:10vh;
+	margin-top:5vh;
 }
 .img4{
 	background-color:#176B6B;
 	height:25vh;
-	margin-top:10vh;
+	margin-top:5vh;
 }
 .a{
 	width:100%;
@@ -105,6 +105,7 @@ ul>li{
 	color:white;
 	text-align:center;
 	display:inline-block;
+	margin-top:0%;
 }
 .aa{
 		width:100%;
@@ -112,8 +113,9 @@ ul>li{
 	transform:bold;
 	font-family: 'Fjalla One', sans-serif;
 	color:white;
-		text-align:center;
+	text-align:center;
 	display:inline-block;
+	margin-top:0%;
 }
 .aaa{
 	width:100%;
@@ -123,11 +125,50 @@ ul>li{
 	color:white;
 	text-align:center;
 	display:inline-block;
+	margin-top:0%;
 }
 .re{
 	align-content:center;
-	
-	margin-left:auto;
-	margin-right: auto;
+	margin:auto;
+	margin-top:5%;
 	display:block;
+}
+.about{
+	color:white;
+	text-align:justify;
+	display:inline-block;
+	font-size:2rem;
+	margin-top:;
+}
+.debajo{
+	background-color:red;
+	border-top-style:solid;
+	border-top-color:white;
+	height:20vh;
+	margin-top:80vh;
+	
+}
+.imag{
+	margin:auto;
+	width:100%;
+	height:100%;
+}
+.well{
+	color:black;
+	background-color:gray;
+	
+}
+ul{
+	overflow:hidden;
+	
+}
+#double li {
+	font-size:2rem;
+}
+#doublee li{
+	font-size:1.3rem;
+}
+li{
+
+
 }
