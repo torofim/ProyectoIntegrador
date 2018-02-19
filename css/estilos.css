@@ -171,8 +171,20 @@ ul{
 #bs-example-navbar-collapse-6{
 	background-color:;
 }
+/* A partir de aqui es el css para el dashboard*/
+
+.navbar-inverse{
+	
+}
+
 .side{
-	width:25%;
-	background-color:red;
+	
+	background-color:#7C8CAE;
 	height:100vh;
+	width:15%;
+}
+.pp{
+	border-radius:50%;
+	width:100px;
+	height:100px;
 }
