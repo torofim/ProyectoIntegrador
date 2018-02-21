@@ -198,3 +198,38 @@ ul{
 	border-bottom-width:1px;
 
 }
+.back{
+	height:100vh;
+	background-color:black;
+}
+.container{
+	width:95vw;
+	height:90vh;
+	border-radius:20px;
+	margin-top:5vh;
+	margin-left:2.5vw;
+	float:left;
+	background-color:rgba(250,250,250,0.2);
+	
+}
+.formlog{
+	width:40%;
+	height:40vh;
+
+	display:inline-block;
+	margin: 0 auto;
+	margin-left:30%;
+	background-color:rgba(250,250,250,0.2);
+
+}
+.inp{
+	border-bottom-width:1px;
+	border-bottom-color:white;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	width:20vh;
+	background-color:transparent;
+	color:white;
+ 	display:inline-block;
+}
