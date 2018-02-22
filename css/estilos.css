@@ -157,7 +157,7 @@ ul>li{
 	background-color:gray;
 }
 ul{
-	overflow:hidden;
+	
 }
 #double li {
 	font-size:1.5rem;
@@ -177,14 +177,19 @@ ul{
 	
 }
 body{
-	overflow-y:hidden;
+width:100vw;
+height:100vh;
+overflow-y:hidden;
+overflow-x: hidden;
 
 }
 .side{
 	background-color:#3a3b3b;
+	width:15vw;
 	height:100vh;
-	width:15%;
 	margin-top:-3%;
+	display:inline-block;
+	float:left;
 }
 .caja1{
 	height:150px;
@@ -284,4 +289,34 @@ body{
 }
 a.list-group-item, button.list-group-item{
 	color:white;
+}
+.canvas-container{
+	padding-top: 2%;
+	width:90vw;
+	height:100vh;
+	background-color:purple;
+	margin-left:;
+	margin-top:-3%;
+}
+.canvas-container2{
+	padding-top: 2%;
+	float:left;
+	background-color:red;
+	margin-left:500PX;
+	margin-top:-500PX;
+
+	
+}
+#titulopie{
+	color:black;
+	font-size:1.5rem;
+	text-align:center;
+	display:block;margin-top:5%;
+}
+.regular{
+	width:85vw;
+	height:100vh;
+	background-color: cyan;
+	float:left;
+	margin-top:-3%;
 }
