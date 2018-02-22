@@ -176,12 +176,15 @@ ul{
 .navbar-inverse{
 	
 }
+body{
+	overflow-y:hidden;
 
+}
 .side{
-	
 	background-color:#3a3b3b;
 	height:100vh;
 	width:15%;
+	margin-top:-3%;
 }
 .caja1{
 	height:150px;
@@ -260,4 +263,25 @@ ul{
 }
 .panel-default{
 	margin-top:40%;
+}
+.list-group{
+	width:100%;
+	margin-top:10%;
+	display:inline-block;
+	font-size:2rem;
+	color:white;
+}
+.list-group-item{
+	background-color:#3a3b3b;
+	margin-top:5%;
+	border-left:none;
+	border-right: none;
+	border-top:none;
+	border-bottom-color:black;
+}
+.list-group-item:hover{
+	background-color:red;
+}
+a.list-group-item, button.list-group-item{
+	color:white;
 }
