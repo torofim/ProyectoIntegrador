@@ -1,16 +1,21 @@
 body {
-
-  background-color: white;
+  background-image: url("../img/cover.png");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   overflow-x:  hidden;
   overflow-y: scroll;
 }
+
 .navbar{
   min-height: 20vh;
   border-color: black;
   background-color: white;
+  border-bottom: 2px solid;
 }
 
-h1{
+.hd{
   text-align: left;
   margin-top: -3%;
   text-transform: uppercase;
@@ -21,6 +26,18 @@ h1{
   font-family: "Apple Chancery" ,serif, cursive ;
 
 }
+.hi{
+  text-align: right;
+  margin-top: -3%;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bolder;
+  color: #000000;
+  font-family: "Apple Chancery" ,serif, cursive ;
+
+}
+
 h4{
   text-align: center;
   text-transform: uppercase;
@@ -48,68 +65,55 @@ h4{
   height: 70vh;
   float: right;
   margin-top: 2%;
-  background-color: red;
 
 }
 #s3{
   height: 70vh;
   float: left;
   margin-top: 2%;
-  background-color: blue;
 
 }
 
 .jumbotron{
   margin-top: 1%;
-
   max-height: 90vh !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border-width: thick;
+  border-color: black;
+  border-style: solid;
 }
 footer{
   width: 98%;
   margin-left: 1%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background-color: white;
   float: left;
   margin-top: 10%;
 }
-.collapsein .collapse{
-  height: 50vh;
-  border-color: black;
-  float: left;
-
-}
-p{
+.pd{
   margin-left: -3%;
 }
-
-.panel-title{
-  background-color: white;
-  font-style: italic;
-  font-size: 3rem;
-  border-color: black;
-}
-.panel-heading{
-  border-color: black;
+.pi{
+  margin-right: 0%;
+  float: right;
 }
 .imgp{
 margin-top: -4%;
 max-width: 20vh;
   max-height: 20vh;
+
 }
-.img1{
+.imgd{
   max-width: 50%;
   max-height: 70%;
 margin-left: 50%;
 margin-top: 0%;
 }
+.imgi{
+  max-width: 50%;
+  max-height: 70%;
+margin-right:  50%;
+margin-top: 0%;
 
-li , p {
-  font-style: normal;
-  font-size: 2rem;
-}
-ul{
-  text-decoration: none;
-  list-style: none;
 }
 h4{
   margin-top: 20%;
@@ -124,14 +128,9 @@ a{
   margin-top: 10%;
   font-size: 2.5rem;
   color: black;
-
 }
 #a1{
   font-size: 2rem;
-}
-.collapsed {
-  font-style: italic;
-  font-family: "Apple Chancery" ,serif, cursive ;
 }
 .border{
   border-left: 2px solid ;

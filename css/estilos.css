@@ -1,8 +1,15 @@
 body {
 
-  background-color: white;
   overflow-x:  hidden;
   overflow-y: scroll;
+}
+.parallax{
+  background-image: url("../img/cover.png");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
 }
 .navbar{
   min-height: 20vh;
@@ -79,7 +86,7 @@ footer{
 
 }
 p{
-  margin-left: -3%;
+
 }
 
 .panel-title{

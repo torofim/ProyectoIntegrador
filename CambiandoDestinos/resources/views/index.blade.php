@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
 	<nav class="navbar navbar-default navbar-fixed-top" >
 
 		<div class="container-fluid">
@@ -35,6 +36,7 @@
   </div>
 
 </nav>
+
 	<section id="s1">
 		<div class="col-md-12 col-md-offset landingpage1">
 
@@ -46,12 +48,12 @@
 			<div class="col-md-12 col-md-offset jumbotron">
 
 
-					<h1 class="col-md-7 col-md-offset ">Acerca</h1>
+					<h1 class="col-md-7 col-md-offset hd">Acerca</h1>
 
-					<p class="col-md-6 col-md-offset">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
+					<p class=" col-md-6 col-md-offset pd">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
 					el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
 					brindando los servicios de:</p>
-					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded img1" alt="Responsive image" >
+					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgd" alt="Responsive image" >
 				</div>
 
 	</section>
@@ -59,13 +61,14 @@
 <section class="col-md-8 col-md-offset " id="s3">
 				<div class="col-md-12 col-md-offset jumbotron">
 
+					<h1 class="col-md-7 col-md-offset hi">Acerca</h1>
 
-					<h1 class="col-md-7 col-md-offset ">Acerca</h1>
 
-					<p class="col-md-6 col-md-offset">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
+					<p class="col-md-6 col-md-offset pi">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
 					el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
 					brindando los servicios de:</p>
-					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded img1" alt="Responsive image" >
+					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgi" alt="Responsive image" >
+
 
 				</div>
 	</section>
@@ -74,12 +77,12 @@
 	<div class="col-md-12 col-md-offset jumbotron">
 
 
-						<h1 class="col-md-7 col-md-offset ">Acerca</h1>
+						<h1 class="col-md-7 col-md-offset  hd">Acerca</h1>
 
-						<p class="col-md-6 col-md-offset">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
+						<p class="col-md-6 col-md-offset pd">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
 						el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
 						brindando los servicios de:</p>
-						<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded img1" alt="Responsive image" >
+						<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgd" alt="Responsive image" >
 
 					</div>
 	</section>
@@ -88,15 +91,17 @@
 						<div class="col-md-12 col-md-offset jumbotron">
 
 
-							<h1 class="col-md-7 col-md-offset ">Acerca</h1>
+							<h1 class="col-md-7 col-md-offset hi">Acerca</h1>
 
-							<p class="col-md-6 col-md-offset">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
+							<p class="col-md-6 col-md-offset pi">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
 							el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
 							brindando los servicios de:</p>
-							<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded img1" alt="Responsive image" >
+							<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgi" alt="Responsive image" >
+
 
 						</div>
 	</section>
+</div>
 
 <footer>
 	<div class="col-md-12 col-md-offset row">
@@ -121,7 +126,7 @@
 			</p>
 		</div>
 
-	</div>
+
 
 </footer>
 
