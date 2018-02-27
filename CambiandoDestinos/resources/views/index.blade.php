@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-	<title>Landing Page</title>
+	<title>Cambiando Destinos</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,164 +10,241 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<a class="navbar-brand" href="#page-top">Cambiando Destinos</a>
+    <div class="container">
 
-	<nav class="navbar navbar-default navbar-fixed-top" id="nave">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-		<div class="container-fluid">
-    <div class="navbar-header" >
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <p class="navbar-brand" >
-        <img  src="./img/fclogo1.png" class="img-responsive imgp" alt="Responsive image" >
-      </p>
-			<a class="active" href="#">Protección al Abuelo</a>
-			<a  href="#">Comida Caliente</a>
-			<a  href="#">Hoy por Hoy</a>
-			<a  href="#">Hoy por Hoy</a>
-
-  </div>
-
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#portfolio">Nosotros</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#about">Comida Calinete</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 </nav>
-
-<section id="s1">
-		<div class="col-md-12 col-md-offset landingpage1">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	<li data-target="#myCarousel" data-slide-to="1"></li>
-	<li data-target="#myCarousel" data-slide-to="2"></li>
-</ol>
-
-<!-- Wrapper for slides -->
-<div class="carousel-inner">
-	<div class="item active">
-		<img class="img-responsive imgitem " src="./img/guitarra.JPG" alt="Responsive image">
-		<div class="carousel-caption">
-			<h3>Los Angeles</h3>
-			<p>LA is always so much fun!</p>
-		</div>
-	</div>
-
-	<div class="item">
-		<img class="img-responsive imgitem " src="./img/viejita.jpg"   alt="Responsive image">
-		<div class="carousel-caption">
-			<h3>Chicago</h3>
-			<p>Thank you, Chicago!</p>
-		</div>
-	</div>
-
-	<div class="item">
-		<img class="img-responsive imgitem " src="./img/junta.JPG"  alt="Responsive image">
-		<div class="carousel-caption">
-			<h3>New York</h3>
-			<p>We love the Big Apple!</p>
-		</div>
-	</div>
-</div>
-
-<!-- Left and right controls -->
-<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-	<span class="glyphicon glyphicon-chevron-left"></span>
-	<span class="sr-only">Previous</span>
-</a>
-<a class="right carousel-control" href="#myCarousel" data-slide="next">
-	<span class="glyphicon glyphicon-chevron-right"></span>
-	<span class="sr-only">Next</span>
-</a>
-</div>
-		</div>
-
-	</section>
-
-<section class="col-md-8 col-md-offset " id="s2">
-		<div class="col-md-12 col-md-offset landingpage2">
-			<div class="col-md-12 col-md-offset jumbotron">
-
-
-					<h1 class="col-md-7 col-md-offset hd">Acerca</h1>
-
-					<p class=" col-md-6 col-md-offset pd">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
-					el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
-					brindando los servicios de:</p>
-					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgd" alt="Responsive image" >
+<header id="page-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="./img/elderly_friend.jpg" alt="">
+                <div class="intro-text">
+                    <span class="name">Banksy</span>
+                    <hr class="star-light">
+                    <p class="skills">anonymous</p>
+                    <p class="skills">artist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content-wrapper">
+    <section class="primary" id="portfolio">
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sobre Nosotros</h2>
+                </div>
+            </div>
+        <div class="container2">
+					<div class=" row">
+			<article class="acerca">
+				<div class=" col-md-4  imagen">
+					<img class="img-responsive" src="./img/fclogo1.png" >
 				</div>
-
-	</section>
-
-<section class="col-md-8 col-md-offset " id="s3">
-				<div class="col-md-12 col-md-offset jumbotron">
-
-					<h1 class="col-md-7 col-md-offset hi">Acerca</h1>
-
-
-					<p class="col-md-6 col-md-offset pi">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
-					el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
-					brindando los servicios de:</p>
-					<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgi" alt="Responsive image" >
-
-
+				<div class="col-md-4 texto">
+					<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+						LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+ 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+						QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+						Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+						EDUCACION Y SALUD.​</p>
 				</div>
-	</section>
+			</article>
+</div>
+</div>
+</div>
+    </section>
+    <section class="success" id="about">
+        <div class="container3">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Nuestros Programas</h2>
+                </div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
 
-<section class="col-md-8 col-md-offset " id="s2">
-	<div class="col-md-12 col-md-offset jumbotron">
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
 
+            </div>
+        </div>
+    </section>
+		<section class="success1" id="about">
+				<div class="container3">
+						<div class="row">
+								<div class="col-lg-12 text-center">
+										<h2>Nuestros Programas</h2>
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
 
-						<h1 class="col-md-7 col-md-offset  hd">Acerca</h1>
-
-						<p class="col-md-6 col-md-offset pd">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
-						el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
-						brindando los servicios de:</p>
-						<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgd" alt="Responsive image" >
-
-					</div>
-	</section>
-
-	<section class="col-md-8 col-md-offset " id="s3">
-						<div class="col-md-12 col-md-offset jumbotron">
-
-
-							<h1 class="col-md-7 col-md-offset hi">Acerca</h1>
-
-							<p class="col-md-6 col-md-offset pi">Viendo la vulnerabilidad por causa del abandono y la falta de cultura de cuidado,
-							el 12 octubre del 2011 surge el área de atención al adulto mayor denominado “protección al abuelo”
-							brindando los servicios de:</p>
-							<img  src="./img/viejitocomer.jpg" class="img-responsive img-rounded imgi" alt="Responsive image" >
-
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
+								<div class="col-md-3 dentro">
+									<div class="col-md-10 dentro1">
+										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
+											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
+											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
+											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
+											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
+											EDUCACION Y SALUD.​</p>
+									</div>
+								</div>
 
 						</div>
-	</section>
+				</div>
+		</section>
+    <section class="primary" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate="">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container" style="min-height:200px; background-color:	#000000;color:#fff;text-align:center;padding-top:50px;">
+
+    </footer>
 </div>
-
-<footer>
-	<div class="col-md-12 col-md-offset row">
-		<div class="col-md-3 col-md-offset ">
-			<h4>FCD A.C.</h4>
-		</div>
-		<div class="col-md-5 col-md-offset border" >
-
-			<p style="font-weight:bolder; text-align:center;">Informacion de Contacto</p><br>
-			<p >Telefono: 6361001010 <br>
-				Direccion: Zapata #509 <br>
-				Email: cambiandodestinos@gmail.com
-			</p>
-		</div>
-
-		<div class="col-md-4 col-md-offset border" >
-
-			<p style=" text-align:center; color:black; font-weight:bolder;">Donaciones</p><br>
-			<p style=" text-align:center;"><a id="a1" href="#">Mision</a> <br>
-				 <a id="a1" href="#">Vision</a> <br>
-				 <a id="a1" href="#">Valores</a>
-			</p>
-		</div>
-
-
-
-</footer>
 
 
 
