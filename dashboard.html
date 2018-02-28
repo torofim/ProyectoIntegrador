@@ -26,11 +26,11 @@
 
 		<div class="ws1">
 			<label id="titulopie">Grafica de edades</label>
-			<canvas id="chart"></canvas>
+			<canvas id="chart" style="width:60%; height:50%"></canvas>
 		</div>
 		<div class="ws2">
 			<label id="titulopie">Grafica de edades</label>
-			<canvas id="chart2"></canvas>
+			<canvas id="chart2" style="width:60%; height:50%"></canvas>
 		</div>
 	</div>
 </body>
@@ -72,7 +72,10 @@
 				},
 			};
 			var canvas=document.getElementById('chart').getContext('2d');
+			var canvas2=document.getElementById('chart2').getContext('2d');
+
 			window.pie = new Chart(canvas,datos);
+			window.pies= new Chart(canvas2,datos);
 
 			setInterval(function(){
 				datos.data.datasets.splice(0);
@@ -88,64 +91,7 @@
 				};
 				datos.data.datasets.push(newData);
 				window.pie.update();
-			},5000);
-
-			function getRandom(){
-				return Math.round(Math.random()*100);
-
-			}
-		});
-	</script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		Chart.defaults.global.defaultFontColor = 'black';
-
-			var datos ={
-				type: "pie",
-				data :{
-					datasets :[{
-						data :[
-							5,
-							10,
-							40,
-							20,
-							25,
-						],
-						backgroundColor: [
-							"#f7466a",
-							"#bdbdbd",
-							"#abc321",
-							"#949fb1",
-							"#321456",
-						],
-					}],
-						labels: [
-
-							"Dato 1",
-							"Dato 2",
-							"Dato 3",
-							"Dato 4",
-							"Dato 5",
-						]
-				},
-			};
-			var canvas=document.getElementById('chart2').getContext('2d');
-			window.pie = new Chart(canvas,datos);
-
-			setInterval(function(){
-				datos.data.datasets.splice(0);
-				var newData={
-					backgroundColor:[
-						"#f7466a",
-						"#bdbdbd",
-						"#abc321",
-						"#949fb1",
-						"#321456",
-					],
-					data:[getRandom(),getRandom(),getRandom(),getRandom(),getRandom()]
-				};
-				datos.data.datasets.push(newData);
-				window.pie.update();
+				window.pies.update();
 			},5000);
 
 			function getRandom(){
