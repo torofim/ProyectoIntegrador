@@ -17,9 +17,3 @@ Route::get('/', function () {
 Route::get('/index', function(){
     return view('index');
 });
-Route::group(['prefix'=>'admin'],/'as'=>'admin.',function(){
-  Route::get('/','AdminController@index');
-  Route::get('/usuarios','UsuariosController@index');
-  Route::resource('usuarios','UsuariosController');
-  Route::resource('admin','AdminController');
-});
