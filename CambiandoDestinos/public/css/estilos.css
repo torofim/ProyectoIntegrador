@@ -1,0 +1,123 @@
+body {
+  overflow-x:  hidden;
+  overflow-y: scroll;
+  min-height: 100%;
+}
+.nav-brand{
+
+  margin-left: 10%;
+}
+header {
+    text-align: center;
+    color: #fff;
+    background: 	white;
+    position: fixed;
+    min-width: 100%;
+    z-index: 1;
+    min-height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.navbar-header{
+  margin-left: 10%;
+  background-color: blue;
+}
+.content-wrapper{
+    background-color: white;
+    top: 98%;
+    min-height: 100%;
+    position:absolute;
+    z-index: 2;
+    min-width: 100%;
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    min-width: 100%;
+    margin-top: 2.7%;
+
+}
+
+header img {
+    display: block;
+    min-width: 100%;
+
+}
+
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    padding: 100px 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+}
+p{
+  margin-top: 10%;
+  min-width: 40%;
+  font-size: 3rem;
+}
+.texto{
+  margin-left: 10%;
+}
+.container1{
+  background-color: white;
+  margin-top: -2%;
+
+}
+.container2{
+  background-color: white;
+}
+.imagen{
+  float: left;
+  display: block;
+  margin-left: 5%;
+  min-height: 55%;
+  min-width: 45%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 5em;
+    margin-top: -1%;;
+}
+.dentro{
+background-color: blue;
+}
+.contenido{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.dentro1{
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 4%;
+  background-color: red;
+
+}
+.dentro1 img{
+  min-width: 100%;
+}
+
+section.primary h2{
+    color: #2c3e50;
+    }
+
+section.success{
+    background-color: 	#000000;
+    color: #fff;
+    min-height: 80%;
+    }

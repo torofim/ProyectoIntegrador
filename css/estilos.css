@@ -1,0 +1,159 @@
+body {
+
+  overflow-x:  hidden;
+  overflow-y: scroll;
+}
+.parallax{
+  background-image: url("../img/cover.png");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.navbar{
+  min-height: 20vh;
+  border-color: black;
+  background-color: white;
+}
+
+h1{
+  text-align: left;
+  margin-top: -3%;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bolder;
+  color: #000000;
+  font-family: "Apple Chancery" ,serif, cursive ;
+
+}
+h4{
+  text-align: center;
+  text-transform: uppercase;
+  border-color: black;
+}
+.landingpage1{
+  background-image: url("../img/viejito1.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 62vh;
+  width: 89%;
+  margin-left: 5.5%;
+  margin-top: 11%;
+  border-color: black;
+}
+.landingpage2{
+  height: inherit;
+  margin-top: 2vh;
+
+}
+#s1{
+  height:70%;
+}
+#s2{
+  height: 70vh;
+  float: right;
+  margin-top: 2%;
+  background-color: red;
+
+}
+#s3{
+  height: 70vh;
+  float: left;
+  margin-top: 2%;
+  background-color: blue;
+
+}
+
+.jumbotron{
+  margin-top: 1%;
+
+  max-height: 90vh !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+footer{
+  width: 98%;
+  margin-left: 1%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  float: left;
+  margin-top: 10%;
+}
+.collapsein .collapse{
+  height: 50vh;
+  border-color: black;
+  float: left;
+
+}
+
+.panel-title{
+  background-color: white;
+  font-style: italic;
+  font-size: 3rem;
+  border-color: black;
+}
+.panel-heading{
+  border-color: black;
+}
+.imgp{
+margin-top: -4%;
+max-width: 20vh;
+  max-height: 20vh;
+}
+.img1{
+  max-width: 50%;
+  max-height: 70%;
+margin-left: 50%;
+margin-top: 0%;
+}
+
+li , p {
+  font-style: normal;
+  font-size: 2rem;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+h4{
+  margin-top: 20%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+br{
+  margin: 4px;
+}
+a{
+  margin-top: 10%;
+  font-size: 2.5rem;
+  color: black;
+
+}
+#a1{
+  font-size: 2rem;
+}
+.collapsed {
+  font-style: italic;
+  font-family: "Apple Chancery" ,serif, cursive ;
+}
+.border{
+  border-left: 2px solid ;
+  border-left-style: groove;
+}
+.contenedor{
+  margin-top: .5%;
+  background-color: gray;
+  min-height: 18vh;
+  max-height: 18vh;
+  border-left: 2px solid;
+}
+.contene{
+  display: block;
+  min-height: 20vh;
+  max-height: 20vh ;
+  background-color: red;
+  min-width: 85%;
+
+
+}
