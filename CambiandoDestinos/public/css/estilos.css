@@ -44,6 +44,7 @@ header img {
 
 }
 
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -93,12 +94,22 @@ section h2 {
     margin-top: -1%;;
 }
 .dentro{
-  margin-top: 5%;
-  background-color: red;
+background-color: blue;
+}
+.contenido{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 .dentro1{
-  background-color: blue;
-margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 4%;
+  background-color: red;
+
+}
+.dentro1 img{
+  min-width: 100%;
 }
 
 section.primary h2{

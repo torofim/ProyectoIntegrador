@@ -85,6 +85,7 @@
 </div>
 </div>
 </div>
+
     </section>
     <section class="success" id="about">
         <div class="container3">
@@ -92,48 +93,46 @@
                 <div class="col-lg-12 text-center">
                     <h2>Nuestros Programas</h2>
                 </div>
+								<div class="col-lg-11 contenido">
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+
+
+
+								<div class="col-md-11 dentro1">
+									<div class="scrollme">
+									<div
+											class="animateme"
+											data-when="enter"
+											data-from="0.5"
+											data-to="0"
+											data-opacity="0"
+											data-translatex="-200"
+											data-rotatez="90">
+											<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
+									</div>
+
+
+
+								</div>
 
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-					 						EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 								</div>
-
+								</div>
             </div>
         </div>
     </section>
@@ -143,46 +142,28 @@
 								<div class="col-lg-12 text-center">
 										<h2>Nuestros Programas</h2>
 								</div>
+								<div class="col-lg-11 contenido">
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
 								</div>
 								<div class="col-md-3 dentro">
-									<div class="col-md-10 dentro1">
-										<p>SOMOS UNA INSTITUCION DE INICIATIVA PRIVADA SIN FIN DE
-											LUCRO CON RESPONSABILIDADES CULTURALES Y SOCIALES ​
-											EN DONDE DISENAMOS Y ENCAUSAMOS PROYECTOS DE UNIDAD
-											QUE DESARROLLEN UN CAMBIO SUSTENTABLE EN LA INTEGRACION
-											Y FORMACION DE NINOS, JOVENES, ADULTOS Y ANCIANOS, EN CULTURA
-											EDUCACION Y SALUD.​</p>
+									<div class="col-md-11 dentro1">
+										<img class="img-responsive" src="./img/arbol.jpg" >
 									</div>
+								</div>
 								</div>
 
 						</div>
@@ -248,7 +229,7 @@
 
 
 
-
+<script src="js/jquery.scrollme.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/javascript.js"></script>
