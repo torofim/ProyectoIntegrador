@@ -186,10 +186,14 @@ height:100vh;
 
 }
 .side{
-	background-color:#3a3b3b;
+	background-color:rgba(72,72,72,0.5);
 	width:15vw;
-	height:92vh;
+	height:100vh;
 	float:left;
+	z-index:50;
+	position:absolute;
+	margin-left:0px;
+
 }
 .head{
 	width:100%;
@@ -198,15 +202,16 @@ height:100vh;
 
 }
 .lefted{
-	width:85vw;
-	height:92vh;
-	background-color:green;
+	width:100vw;
+	height:100vh;
 	float:left;
+	z-index:1;
+	padding-left:15vw;
 }
 .ws1{
 	width:40vw;
 	height:40vh;
-	background-color:gray;
+	background-color:rgba(72,72,72,0.7);
 	float:left;
 	margin-left:2vw;
 	margin-top:2vh;
@@ -214,7 +219,7 @@ height:100vh;
 .ws2{
 	width:40vw;
 	height:40vh;
-	background-color:pink;
+	background-color:rgba(72,72,72,0.7);
 	float:left;
 	margin-left:1vw;
 	margin-top:2vh;
@@ -222,7 +227,7 @@ height:100vh;
 .sws1{
 	width:40vw;
 	height:15vh;
-	background-color:white;
+	background-color:rgba(72,72,72,0.7);
 	float:left;
 	margin-left:2vw;
 	margin-top:2vh;
@@ -230,7 +235,7 @@ height:100vh;
 .sws2{
 	width:40vw;
 	height:15vh;
-	background-color:white;
+	background-color:rgba(72,72,72,0.7);
 	float:left;
 	margin-left:1vw;
 	margin-top:2vh;
@@ -238,7 +243,7 @@ height:100vh;
 .separador{
 	width:81vw;
 	height:10vh;
-	background-color:magenta;
+	background-color:rgba(72,72,72,0.7);
 	margin-left:3.5vh;
 	margin-top:3vh;
 	float:left;
@@ -358,4 +363,25 @@ element.style {
     display: block;
     width: 300px;
     height: 273px;
+}
+img{
+	background-size:100% 100%;
+}
+.chartspace{
+	height:100%;
+	width:25%;
+	background-color:red;
+	float:left;
+}
+.centertext{
+	height:100%;
+	width:50%;
+	background-color:blue;
+	float:left;
+}
+.icon{
+	height:100%;
+	width:25%;
+	background-color:pink;
+	float:left;
 }
