@@ -211,7 +211,7 @@
 								</div>
 								<div class="col-md-3 dentro">
 									<div class="col-md-11 dentro1">
-										<img class="img-responsive" src="./img/junta.jpg" >
+										<img class="img-responsive" src="./img/arbol.jpg" >
 										<div class="overlay">
 											<div class="text"><a href="#">Conoce Mas</a></div>
 										</div>
@@ -243,13 +243,13 @@
     <img class="galeria" src="./img/viejita.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column1">
-    <img class="galeria" src="./img/junta.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img class="galeria" src="./img/arbol.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column1">
-    <img class="galeria" src="" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img class="galeria" src="./img/guitarra.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column1">
-    <img class="galeria" src="" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img class="galeria" src="./img/junta.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 

@@ -58,11 +58,11 @@ section {
     padding: 50px 0;
     width: 100%;
     height: 100%;
-    background-color: blue;
+
 
 }
 p{
-  margin-top: 10%;
+  margin-top: 0%;
   min-width: 40%;
   font-size: 3rem;
 }
@@ -75,7 +75,7 @@ section h2 {
 }
 
 .row{
-  background-color: red;
+
   height: 100%;
   padding: 30px 0;
 }
@@ -96,24 +96,24 @@ section h2 {
 }
 
 .dentro{
-background-color: red;
+
 min-height: 100%;
 }
 .contenido{
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left:1%;
-  background-color: #3174e0;
-  height:80%;
-  width: 100%;
+margin-left:6.5%;
+
+  height:100%;
+  width: 85%;
 }
 .dentro1{
   margin-top: 15%;
   margin-bottom: 15%;
-  margin-left:0;
+  margin-left:1%;
   background-color: #3174e0;
-  height:80%;
-  width: 80%;
+  height:100%;
+  width: 100%;
 
 }
 .dentro1 img{
@@ -167,4 +167,8 @@ section.success{
     }
 footer{
   margin-top: 10%;
+}
+
+.columna1{
+  max-height: 60%;
 }
