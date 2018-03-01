@@ -1,190 +1,19 @@
+/* A partir de aqui es el css para el dashboard*/
+
 html,body {
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.landupper{
-	height:100vh;
-}
-.landlower{
-	background-color:#EFF2C0;
-	height:100vh;
-
-}
-.logo{
-	background-color:purple;
-	height:25vh;
-	margin-top:10vh;
-}
-.img{
-	display:block;
-	margin:auto;
-	margin-top:20vh;
-}
-.lab{
-	text-align:center;
-	color:black;
-	font-size:3rem;
-	font-family: 'Fjalla One', sans-serif;
-}
-.boton{
-	margin-top:2vh;
-	font-size:2rem;
-	font-family: 'Fjalla One', sans-serif;
-
-}
-.fhalf{
-	height:80vh;
-	background-color:#2C2C2C;
-
-}
-.shalf{
-	height:80vh;
-	background-color:#2C2C2C;
-}
-.snt{
-	width:90%;
-	height:70%;
-	background-color:transparent;
-	color:white;
-	margin-left:5%;
-	font-size:2rem;
-	margin-top:2.5%;
-	font-family: 'Hind', sans-serif;
-	text-align:justify;
-}
-.titulo{
-	font-size:3rem;
-	margin-left:5%;
-	display:inline-block;
-	color:white;
-	margin-top:10%;
-	font-family: 'Fjalla One', sans-serif;
-	border-bottom:solid;
-	border-bottom-width:1px;
-	
-}
-.landlower2{
-	height:100vh;
-	width:100%;
-}
-ul>li{
-	font-family: 'Hind', sans-serif;
-	font-size:1.8rem;
-}
-.navbar-brand{
-	font-family: 'Hind', sans-serif;
-	font-size:2rem;
-}
-.servicios{
-	height:100vh;
-}
-.cover{
-	height:100vh;
-	width:33.33%;
-	background-color:#151819;
-}
-.salud{
-	background-color:#176B6B;
-	height:100vh;
-}
-.gestiones{
-	background-color:#151819;
-	height:100vh;
-}
-.img3{
-	background-color:#151819;
-	height:25vh;
-	margin-top:5vh;
-}
-.img4{
-	background-color:#176B6B;
-	height:25vh;
-	margin-top:5vh;
-}
-.a{
-	width:100%;
-	font-size:2.5rem;
-	transform:bold;
-	font-family: 'Fjalla One', sans-serif;
-	color:white;
-	text-align:center;
-	display:inline-block;
-	margin-top:0%;
-}
-.aa{
-		width:100%;
-	font-size:2.5rem;
-	transform:bold;
-	font-family: 'Fjalla One', sans-serif;
-	color:white;
-	text-align:center;
-	display:inline-block;
-	margin-top:0%;
-}
-.aaa{
-	width:100%;
-	font-size:2.5rem;
-	transform:bold;
-	font-family: 'Fjalla One', sans-serif;
-	color:white;
-	text-align:center;
-	display:inline-block;
-	margin-top:0%;
-}
-.re{
-	align-content:center;
-	margin:auto;
-	margin-top:5%;
-	display:block;
-}
-.about{
-	color:white;
-	text-align:justify;
-	display:inline-block;
-	font-size:2rem;
-	margin-top:;
-}
-.debajo{
-	background-color:red;
-	border-top-style:solid;
-	border-top-color:white;
-	height:20vh;
-	margin-top:80vh;
-}
-.imag{
-	margin:auto;
-	width:100%;
-	height:100%;
-}
-.well{
-	color:black;
-	background-color:gray;
-}
-ul{
-	
-}
-#double li {
-	font-size:1.5rem;
-}
-#doublee li{
-	font-size:1.5rem;
-}
-#double3 li{
-	font-size:1.5rem;
-}
-#bs-example-navbar-collapse-6{
-	background-color:;
-}
-//////////////////////////////////////
-/* A partir de aqui es el css para el dashboard*/
-
-
 body{
 width:100vw;
 height:100vh;
 
 
+}
+.navbar-brand{
+	font-family: 'Hind', sans-serif;
+	font-size:2rem;
 }
 .side{
 	background-color:rgba(72,72,72,0.5);
@@ -240,6 +69,16 @@ height:100vh;
 	float:left;
 	margin-left:1vw;
 	margin-top:2vh;
+}
+.lws{
+	width:81vw;
+	height:75vh;
+	background-color:white;
+	border-radius:10px;
+	float:left;
+	margin-left: 3.5vh;
+	margin-top:3vh;
+
 }
 .separador{
 	width:81vw;
@@ -418,4 +257,7 @@ img{
 	display:inline-block;
 	color:white;
 	margin-left:40%;
+}
+.panel-default{
+	margin:0px;
 }
