@@ -78,6 +78,13 @@ height:100vh;
 	float:left;
 	margin-left: 3.5vh;
 	margin-top:3vh;
+}
+
+.ws2l{
+	width:81vw;
+	height:70vh;
+	background-color:red;
+	float:left;
 
 }
 .separador{
@@ -260,4 +267,6 @@ img{
 }
 .panel-default{
 	margin:0px;
+	overflow-y:scroll;
+	max-height:75vh;
 }
