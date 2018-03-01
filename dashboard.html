@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
-	<link rel="stylesheet" type="text/css" href="./css/chart.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind" rel="stylesheet">
 	
 </head>
@@ -35,36 +34,63 @@
 	                </div>
 	                 </nav>
 	<div class="side">
-		<ul class="nav nav-pills nav-stacked nav-pills-stacked-example">
-		 <li role="presentation">
-		 	<a href="#">Inicio</a>
-		 </li>
-		 <li role="presentation">
-		 <a href="#">Usuarios</a>
-		</li> 
-		<li role="presentation">
-			<a href="#">Registros</a>
-		</li> 
-		<li role="presentation">
-			<a href="#">Graficos</a>
-		</li>
-	</ul>
+		<div class="list-group">
+ 		 <a href="#" class="list-group-item">Inicio</a>
+ 		 <a href="#" class="list-group-item">Usuarios</a>
+  		<a href="#" class="list-group-item">Registros</a>
+  		<a href="#" class="list-group-item">Graficos</a>
+	</div>
+	</div>
+		</ul>
 	</div>
 	<div class="lefted" style="background-image:url('./img/back.jpg');">
-		<div class="separador"></div>
+		<div class="separador">
+			<label>Dashboard</label>
+		</div>
 
-		<div class="sws1"></div>
-		<div class="sws2"></div>
+		<div class="sws1">
+			<div class="chartspace">
+				<canvas id="doughnut-chart2" style="width:70%; height:60%; align-content:right;'"></canvas>
+			</div>
+			<div class="centertext"></div>
+			<div class="icon">
+				 <span class="glyphicon glyphicon-user"></span>
+			</div>
+			
+		</div>
+		<div class="sws2">
+			<div class="chartspace">
+				<canvas id="doughnut-chart2" style="width:70%; height:60%; align-content:right;'"></canvas>
+			</div>
+			<div class="centertext"></div>
+			<div class="icon">
+				 <span class="glyphicon glyphicon-cog"></span>
+			</div>
+			
+		</div>
 
-		<div class="sws1"> <canvas id="doughnut-chart2" style="width:70%; height:60%; '"></canvas>
-		<img src="./img/smile.png"></div>
+		<div class="sws1">
+			<div class="chartspace">
+				<canvas id="doughnut-chart2" style="width:70%; height:60%; align-content:right;'"></canvas>
+			</div>
+			<div class="centertext"></div>
+			<div class="icon">
+				 <span class="glyphicon glyphicon-user"></span>
+			</div>
+			
+		 	</div>
+
+		
 
 		<div class="sws2"> 
 			<div class="chartspace">
 				<canvas id="doughnut-chart" style="width:70%; height:60%; align-content:right;'"></canvas>
 			</div>
 			<div class="centertext"></div>
-			<div class="icon"><img src="./img/user.png" style="background-size:100% 100%;"></div></div>
+			<div class="icon">
+				<span class="glyphicon glyphicon-list-alt"></span>
+			</div>
+		</div>
 			
 		
 
