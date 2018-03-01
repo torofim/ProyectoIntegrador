@@ -404,3 +404,12 @@ img{
 	color:white;
 }
 
+.centered{
+	font-size:25px;
+	align-content:center;
+	margin:auto;
+	display:block;
+	color:white;
+	margin-left:5%;
+	margin-top:10%;
+}
