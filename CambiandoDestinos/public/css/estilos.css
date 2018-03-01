@@ -21,7 +21,7 @@ header {
 }
 .navbar-header{
   margin-left: 10%;
-  background-color: blue;
+
 }
 .content-wrapper{
     background-color: white;
@@ -67,15 +67,17 @@ p{
   font-size: 3rem;
 }
 .texto{
+  margin-top: 5%;
   margin-left: 10%;
 }
 section h2 {
     margin: 0;
     font-size: 5em;
+    color: #2c3e50;
 }
 
-.row{
-
+.rows{
+  display: inline-block;
   height: 100%;
   padding: 30px 0;
 }
@@ -121,6 +123,12 @@ margin-left:6.5%;
   margin-top: 10%;
   margin-bottom :10%;
 }
+.informe{
+  background-color: red;
+  margin-left: 8%;
+margin-top: 5%;
+height: 65%;
+}
 
 .overlay {
   position: absolute;
@@ -160,15 +168,42 @@ section.primary h2{
     color: #2c3e50;
     }
 
-section.success{
-    background-color: 	#000000;
+section.success1{
+    background-color: 	white;
     color: #fff;
     min-height: 80%;
+    margin-top: 3%;
     }
 footer{
   margin-top: 10%;
 }
+.container3{
+  background-color: blue;
 
-.columna1{
-  max-height: 60%;
+}
+.jumbotron{
+  background-color: #b1bbcc;
+  width: 100%;
+  height: 100%;
+
+}
+.jumbotron p{
+  color: #2c3e50;
+}
+.informe{
+  margin-left: 5%;
+}
+.circle-text {
+display: table-cell;
+height: 200px; /*change this and the width
+for the size of your initial circle*/
+width: 200px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+/*make it pretty*/
+background: #000;
+color: #fff;
+font: 18px "josefin sans", arial; /*change this
+for font-size and font-family*/
 }
