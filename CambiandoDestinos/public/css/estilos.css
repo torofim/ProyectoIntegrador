@@ -124,7 +124,7 @@ margin-left:6.5%;
   margin-bottom :10%;
 }
 .informe{
-  background-color: red;
+  
   margin-left: 8%;
 margin-top: 5%;
 height: 65%;
@@ -182,7 +182,7 @@ footer{
 
 }
 .jumbotron{
-  background-color: #b1bbcc;
+
   width: 100%;
   height: 100%;
 
@@ -195,15 +195,25 @@ footer{
 }
 .circle-text {
 display: table-cell;
-height: 200px; /*change this and the width
+height:128px; /*change this and the width
 for the size of your initial circle*/
-width: 200px;
+width: 128px;
 text-align: center;
 vertical-align: middle;
 border-radius: 50%;
 /*make it pretty*/
 background: #000;
-color: #fff;
-font: 18px "josefin sans", arial; /*change this
+color: black;
+
+font: 28px "josefin sans", arial; /*change this
 for font-size and font-family*/
+
+
+
+
+}
+.con {
+    position: relative;
+    text-align: center;
+    color: white;
 }

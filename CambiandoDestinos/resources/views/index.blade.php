@@ -217,16 +217,31 @@
 							</div>
 							<div class="col-lg-12 columna">
 								<div class="col-lg-5 informe">
-									<div class="jumbotron">
-									  <p>Instituto cultural cambiando destinos  </p>
-										 <p>talleres de  </p>
-										  <p>pintura artística música a cargo de maestros y artistas de la comunidad  </p>
-											<p>de octubre del 2011 al finales del  2015   </p>
-											<p>impartieron 1248 talleres de música y 832 talleres de pintura beneficiando a un aproximado de 115 alumnos  </p>
-											<div class="circle-text">
-												Para visitar el espacio es necesario tener
-												cita previa
+									<div class="col-lg-12 jumbotron">
+										 <p style="text-align:center; font-size:4em;margin-left:-10%; color:black;" >Talleres</p>
+										 <p style="text-align:center;margin-left:-10%;font-size:1.5em">De octubre del 2011 <br>a finales del 2015</p>
+										 <div class=" con" style="margin-left:5%;margin-top:-10%;width:30%;background-color:red;">
+											 <div class="circle-text" style="background:url(./img/palette1.png); background-size:fill"  >
+ 												Pintura <br>Artística
+ 											</div>
+
+										 </div>
+										 <p style="margin-left:7%;font-size:1.5em">832 talleres <br> de pintura</p>
+											<div class=" con" style="margin-left:40%; margin-top:-10%;background-color:red;width:30%;">
+												<div class=" circle-text" style="background:url(./img/acustic1.png); background-size:fill" >
+													Música
+													</div>
+													<p style="font-size:1.5em;margin-left:-70%">1248 talleres <br> de música </p>
+											</div>
+
+
+
+											<div class=" con" style="margin-left:10%;margin-top:-5%;width:30%;background-color:red;">
+											<div class=" circle-text" style="background:url(./img/team.png); ">
+												115 alumnos
 												</div>
+												</div>
+
 								</div>
 								</div>
 
