@@ -20,6 +20,18 @@ Route::get('/index', function(){
 Route::get('/dash', function(){
     return view('dashboard');
 });
+Route::get('/beneficiados',function(){
+  return view('dashboardbeneficiarios')
+});
+Route::get('/graficos',function(){
+  return view('dashboardgraficos');
+});
+Route::get('/inicio',function(){
+  return view('dashboardinicio')
+});
+Route::get('/usuarios',function{
+  return view('dashboardusuarios')
+});
 Route::group(['prefix'=>'admin','as'=>'admin.'],function(){
   Route::get('/','AdminController@index');
   Route::get('/usuarios','UsuariosController@index');
